@@ -48,11 +48,6 @@ export default new Router({
       component: () => import('./views/Student.vue'),
     },
     {
-      path: '/student/:id',
-      name: 'student',
-      component: () => import('./views/Student.vue'),
-    },
-    {
       path: '/student/:id/workshop',
       name: 'StudentWorkshop',
       component: () => import('./views/StudentWorkshop.vue'),
